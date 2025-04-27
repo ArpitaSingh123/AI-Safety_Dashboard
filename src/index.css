@@ -1,0 +1,121 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #34495e;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+form:hover {
+  transform: scale(1.02);
+}
+
+form input,
+form textarea,
+form select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+  background-color: #1a252f;
+  transform: scale(1.05);
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.incident-card {
+  background: #fdfdfd;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.incident-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Severity-based colors */
+.incident-card[data-severity="High"] {
+  border-left: 6px solid #e74c3c;
+}
+
+.incident-card[data-severity="Medium"] {
+  border-left: 6px solid #e67e22;
+}
+
+.incident-card[data-severity="Low"] {
+  border-left: 6px solid #27ae60;
+}
+
+.incident-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.incident-card button {
+  margin-top: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.incident-card button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+select,
+input,
+textarea {
+  background-color: #f9f9f9;
+}
