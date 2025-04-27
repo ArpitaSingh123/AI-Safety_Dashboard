@@ -61,3 +61,22 @@ You can deploy easily using:
 ---
 
 ## 📋 Project Structure
+
+/src ├── App.tsx ├── index.css └── main.tsx or index.tsx /public └── index.html package.json
+
+
+---
+
+## 👨‍💻 Contributing
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
